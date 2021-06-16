@@ -15,10 +15,10 @@ module.exports = {
     try {
       message.channel.send(new MessageEmbed()
         .setColor(ee.color)
-        .setTitle(":heart: Thanks for inviting me!")
+        .setTitle(":heart: Vokey Invite ME")
         .setFooter(ee.footertext, ee.footericon)
         .setURL("https://discord.com/api/oauth2/authorize?client_id=742672021422342165&permissions=8&scope=bot")
-        .setDescription("[Click here](https://discord.com/api/oauth2/authorize?client_id=742672021422342165&permissions=8&scope=bot)")
+        .setDescription("[Click here](https://discord.com/oauth2/authorize?client_id=854053203334791238&scope=bot&permissions=4331671048)")
       );
     } catch (e) {
       console.log(String(e.stack).bgRed)
