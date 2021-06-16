@@ -3,7 +3,7 @@ const config = require("../../botconfig/config.json");
 const ee = require("../../botconfig/embed.json");
 const { autoplay, isrequestchannel, edit_request_message_track_info } = require("../../handlers/functions");
 module.exports = {
-    name: "forceskip",
+    name: "skip",
     category: "🎶 Music",
     aliases: ["fs"],
     description: "Forces to skip the current song",
